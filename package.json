@@ -1,14 +1,12 @@
 {
-  "name": "parcel-sandbox",
+  "name": "calc",
   "version": "1.0.0",
-  "description": "Simple Parcel Sandbox",
-  "main": "index.html",
+  "description": "Calc",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "start": "node server.js"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "parcel-bundler": "^1.6.1"
-  }
+  "dependencies": {
+    "express": "4.16.3"
+  },
+  "keywords": []
 }
